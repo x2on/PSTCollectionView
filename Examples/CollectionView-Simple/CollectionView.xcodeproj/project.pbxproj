@@ -100,6 +100,7 @@
 		78E9A8161613EC640066752B /* PSTGridLayoutRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E9A80A1613EC640066752B /* PSTGridLayoutRow.m */; };
 		78E9A8171613EC640066752B /* PSTGridLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E9A80C1613EC640066752B /* PSTGridLayoutSection.m */; };
 		981FA1E216C79B2E00F6149A /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FA1E116C79B2E00F6149A /* NSIndexPath+PSTCollectionViewAdditions.m */; };
+		FD95F1AC16DB5832009DF092 /* TestCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FD95F1AB16DB5831009DF092 /* TestCollectionViewLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -218,6 +219,8 @@
 		78E9A80C1613EC640066752B /* PSTGridLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSTGridLayoutSection.m; sourceTree = "<group>"; };
 		981FA1E016C79B2E00F6149A /* NSIndexPath+PSTCollectionViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexPath+PSTCollectionViewAdditions.h"; sourceTree = "<group>"; };
 		981FA1E116C79B2E00F6149A /* NSIndexPath+PSTCollectionViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexPath+PSTCollectionViewAdditions.m"; sourceTree = "<group>"; };
+		FD95F1AA16DB5831009DF092 /* TestCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewLayout.h; sourceTree = "<group>"; };
+		FD95F1AB16DB5831009DF092 /* TestCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,6 +360,8 @@
 				78E9A7F51613EC640066752B /* PSTCollectionView */,
 				53EADDED159EB53A00876690 /* images */,
 				53C4ED3C159E740C0019285D /* Supporting Files */,
+				FD95F1AA16DB5831009DF092 /* TestCollectionViewLayout.h */,
+				FD95F1AB16DB5831009DF092 /* TestCollectionViewLayout.m */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -570,6 +575,7 @@
 				78E9A8171613EC640066752B /* PSTGridLayoutSection.m in Sources */,
 				78E7A7681654EF15000C70BE /* PSTCollectionViewUpdateItem.m in Sources */,
 				981FA1E216C79B2E00F6149A /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
+				FD95F1AC16DB5832009DF092 /* TestCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
